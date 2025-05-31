@@ -69,6 +69,7 @@ Projenin gelişim sürecini ve detaylarını içeren tüm belgeler aşağıda su
 - 📘 `katalog.pdf` – Ürün tanıtım kataloğu
 - 📚 `kullanımkılavuzu.pdf` – Uygulama kullanım rehberi
 - 🧾 `hikayekartlari.pdf` – Kullanım senaryoları ve kullanıcı hikayeleri
+- 📑 `gereksinim_dokumani.pdf` – Fonksiyonel ve fonksiyonel olmayan gereksinimleri içeren teknik doküman
 
 ---
 
