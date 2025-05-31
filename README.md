@@ -33,7 +33,7 @@ Platform, kullanıcıların daha önce izledikleri yapımlar, beğenileri, yorum
 | **Sude Naz Doğdu**  | Giriş/favori/puanlama işlevleri |
 | **Özge Keskin**     | Mock verilerle test, Sunucu kurulumu (Express.js) |
 | **Erva Aygüneş**    | Veritabanı bağlantısı, UI düzenlemeleri |
-| **Zeynep Erarslan** | Backend entegrasyon, API bağlantıları, README ve GitHub yönetimi |
+| **Zeynep Erarslan** | Backend entegrasyon, API bağlantıları |
 
 ---
 
