@@ -32,8 +32,8 @@ Platform, kullanıcıların daha önce izledikleri yapımlar, beğenileri, yorum
 | **Ceyda Gülen**     | Kullanıcı arayüzü geliştirme, Sayfa yönlendirmeleri |
 | **Sude Naz Doğdu**  | Giriş/favori/puanlama işlevleri |
 | **Özge Keskin**     | Mock verilerle test, Sunucu kurulumu (Express.js) |
-| **Erva Aygüneş**    | Veritabanı bağlantısı, UI düzenlemeleri |
-| **Zeynep Erarslan** | Backend entegrasyon, API bağlantıları |
+| **Erva Aygüneş**    | Veritabanı bağlantısı, Backend entegrasyon, Kullanıcı arayüzü geliştirme |
+| **Zeynep Erarslan** | Kullanıcı arayüzü geliştirme, Backend entegrasyon, API bağlantıları |
 
 ---
 
