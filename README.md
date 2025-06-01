@@ -1,151 +1,46 @@
-# 🎬 Kişiselleştirilmiş Dizi ve Film Öneri Sistemi
+# Getting Started with Create React App
 
-> **BLM0324 - Yazılım Mühendisliği Dönem Projesi**  
-> **Takım Numarası:** 5  
-> **Dönem:** Bahar 2025  
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## 📌 Proje Amacı
+In the project directory, you can run:
 
-Günümüzde dijital içerik platformlarında binlerce film ve diziye erişmek mümkün. Ancak kullanıcıların ilgi alanlarına uygun içerikleri keşfetmesi zaman alabilir ve çoğu zaman tatmin edici önerilere ulaşmak zor olabilir. Bu sorunu çözmek adına geliştirdiğimiz bu proje, kullanıcıların içerik izleme alışkanlıklarını analiz ederek **kişiselleştirilmiş dizi ve film önerileri** sunan, yapay zeka destekli bir web platformudur.
+### `npm start`
 
-Platform, kullanıcıların daha önce izledikleri yapımlar, beğenileri, yorumları ve tercih ettikleri türleri temel alarak önerilerde bulunur. Bu sayede her kullanıcıya özel, dinamik ve güncel bir izleme deneyimi sunulmuş olur.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
----
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## 🎯 Proje Hedefleri
+### `npm test`
 
-- 🎯 Kullanıcılara en uygun içerikleri sunarak izleme deneyimini kişiselleştirmek
-- 🔍 İçerik arama ve keşfetme sürecini kolaylaştırmak ve hızlandırmak
-- 🧠 Yapay zeka temelli filtreleme algoritmaları ile öneri doğruluğunu artırmak
-- 💬 Kullanıcı etkileşimini teşvik ederek sosyal bir içerik topluluğu oluşturmak
-- 🌐 Güncel verilerle çalışan esnek ve genişletilebilir bir öneri sistemi tasarlamak
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
+### `npm run build`
 
-## 👥 Takım Üyeleri ve Görevleri
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-| İsim             | Görevler |
-|------------------|----------|
-| **Huri Nisa İnsan** | İletişim sorumlusu, Fikir geliştirme, Tasarım süreci |
-| **Ceyda Gülen**     | Kullanıcı arayüzü geliştirme, Sayfa yönlendirmeleri |
-| **Sude Naz Doğdu**  | Giriş/favori/puanlama işlevleri |
-| **Özge Keskin**     | Mock verilerle test, Sunucu kurulumu (Express.js) |
-| **Erva Aygüneş**    | Veritabanı bağlantısı, Backend entegrasyon, Kullanıcı arayüzü geliştirme |
-| **Zeynep Erarslan** | Kullanıcı arayüzü geliştirme, Backend entegrasyon, API bağlantıları |
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## 🛠️ Kullanılan Yazılım ve Donanım Teknolojileri
+### `npm run eject`
 
-Bu proje, modern web teknolojileri ve güçlü açık kaynak araçları kullanılarak geliştirilmiştir:
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-- **Frontend**: React.js, responsive ve kullanıcı dostu arayüz tasarımı
-- **Backend**: Node.js & Express.js ile RESTful API mimarisi
-- **Veritabanı**: MySQL (kullanıcı, içerik, yorum ve favori takibi için)
-- **Yapay Zeka**: İçerik bazlı filtreleme + işbirlikçi filtreleme algoritmaları
-- **Veri Kaynakları**: TMDb API, IMDb API, OMDb API ile içerik verileri
-- **Araçlar**: Git, GitHub, Canva (tasarım), Excel (iş planı), VSCode
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
----
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## 🔍 Öne Çıkan Özellikler
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-- 🔎 Gerçek zamanlı arama ve otomatik tamamlama özelliği
-- 📋 Kişiselleştirilmiş öneri listeleri
-- 🧠 Gelişmiş yapay zeka destekli öneri motoru
-- 💬 Yorum yapma ve favorilere ekleme sistemi
-- 🗂️ Kullanıcı profili ve izleme geçmişi analizi
-- 📈 Dinamik olarak güncellenen içerik önerileri
+## Learn More
 
----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## 📎 Proje Belgeleri
-
-Projenin gelişim sürecini ve detaylarını içeren tüm belgeler aşağıda sunulmuştur:
-
-- 📄 `proje_detayı.pdf` – Proje kapsamı ve işleyişi
-- 📘 `katalog.pdf` – Ürün tanıtım kataloğu
-- 📚 `kullanımkılavuzu.pdf` – Uygulama kullanım rehberi
-- 🧾 `hikayekartlari.pdf` – Kullanım senaryoları ve kullanıcı hikayeleri
-- 📑 `gereksinim_dokumani.pdf` – Fonksiyonel ve fonksiyonel olmayan gereksinimleri içeren teknik doküman
-
----
-
-## 🧩 Sistem Mimarisi
-
-1. **Kayıt ve Giriş**: Kullanıcılar sistemde profil oluşturur ve oturum açar.
-2. **Veri Toplama**: Beğenilen türler, izleme geçmişi, puanlamalar ve yorumlar toplanır.
-3. **Analiz ve Öğrenme**: Yapay zeka algoritmaları ile kullanıcı tercihi analiz edilir.
-4. **Öneri Üretimi**: İçerik bazlı, işbirlikçi ve hibrit filtreleme modelleri ile öneriler sunulur.
-5. **Etileşim**: Kullanıcılar önerileri favoriye alabilir, puanlayabilir, yorum yazabilir.
-6. **Geri Bildirim**: Sistem, kullanıcının aksiyonlarını izleyerek öneri motorunu geliştirir.
-
----
-
-## 📥 Kurulum Adımları
-
-```bash
-# Backend kurulumu
-cd backend
-npm install
-npm start
-
-# Frontend kurulumu
-cd frontend
-npm install
-npm start
-```
-
-> `.env` dosyasına TMDb API anahtarı ve veritabanı bilgilerini eklemeyi unutmayın.
-
----
-
-## 💡 Kullanım Senaryosu
-
-🎞 **Ali**, film ve dizi izlemeyi seven bir kullanıcıdır. Sisteme giriş yaptıktan sonra:
-
-- Beğendiği türleri (bilim kurgu, aksiyon) seçer.
-- Daha önce izlediği yapımları puanlar.
-- Sistem ona özel içerik önerileri sunar.
-- Aradığı yapımları hızlıca bulur.
-- İzlediği içeriklere yorum yapar, favorilere ekler.
-
-Bu deneyim, diğer kullanıcılar için de benzer şekilde işlemekte olup sistem her kullanıcı için farklı sonuçlar üretmektedir.
-
----
-
-## 🌐 LinkedIn Paylaşımı
-
-- Tüm takım üyeleri ve danışman `valuntas@gmail.com` LinkedIn paylaşımında etiketlenecektir.
-- Proje broşürü ve GitHub linki paylaşımda yer alacaktır.
-- Takım üyeleri kendi kişisel profillerinde de projeyi paylaşacaktır.
-
----
-
-## 📧 İletişim
-
-Proje hakkında daha fazla bilgi almak, öneride bulunmak veya katkı sağlamak isterseniz bizimle iletişime geçebilirsiniz:
-
-- Takım İletişim Sorumlusu: **Huri Nisa İnsan**
-- E-Posta (danışman): `valuntas@gmail.com`
-- LinkedIn bağlantılarımız ve GitHub repo linki, paylaşımlarımızda yer almaktadır.
-- Açık kaynak geliştirici topluluğuna katkı sağlamak isteyenler için repomuz açıktır.
-
----
-
-## ✅ Katkı ve Destek
-
-Proje açık kaynak olarak geliştirilmiştir. Kodları inceleyebilir, yıldızlayabilir veya `fork` ederek katkı sunabilirsiniz. Özellikle öneri algoritmaları, arayüz tasarımı veya performans optimizasyonu konularında geliştirme yapmak isteyen geliştiricilere açığız.
-
----
-
-## 🏁 Sonuç
-
-Bu proje, kullanıcıların dijital içerik platformlarında daha keyifli, zaman kazandıran ve kişisel ilgi alanlarına göre şekillenen bir deneyim yaşamalarını sağlamak amacıyla tasarlanmıştır. Takım olarak modern yazılım mühendisliği süreçlerine uygun biçimde ilerleyerek görev paylaşımı, dokümantasyon, test ve versiyon kontrol adımlarını dikkatle uyguladık.
-
----
-
-📌 **Bu proje, Bursa Teknik Üniversitesi Bilgisayar Mühendisliği "BLM0324 Yazılım Mühendisliği" dersi kapsamında 2025 Bahar döneminde geliştirilmiştir.**
-
+To learn React, check out the [React documentation](https://reactjs.org/).

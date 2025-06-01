@@ -1,0 +1,153 @@
+.movie-detail-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.movie-detail-content {
+  display: flex;
+  gap: 40px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.movie-poster-container {
+  flex-shrink: 0;
+  width: 300px;
+  height: 450px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie-poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.movie-poster:hover {
+  transform: scale(1.05);
+}
+
+.movie-info {
+  flex-grow: 1;
+}
+
+.movie-title {
+  font-size: 2.5rem;
+  color: #2D3748;
+  margin-bottom: 1rem;
+}
+
+.movie-meta {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 1.5rem;
+  color: #4A5568;
+}
+
+.movie-year {
+  font-size: 1.2rem;
+}
+
+.movie-rating {
+  font-size: 1.2rem;
+  color: #E53E3E;
+}
+
+.movie-genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.genre-tag {
+  background-color: #38B2AC;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.movie-director {
+  font-size: 1.1rem;
+  color: #4A5568;
+  margin-bottom: 1.5rem;
+}
+
+.movie-description {
+  color: #4A5568;
+}
+
+.movie-description h2 {
+  font-size: 1.5rem;
+  color: #2D3748;
+  margin-bottom: 1rem;
+}
+
+.movie-description p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #F3F3F3;
+  border-top: 4px solid #38B2AC;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-container {
+  text-align: center;
+  padding: 20px;
+  color: #E53E3E;
+}
+
+/* Responsive tasarım */
+@media (max-width: 768px) {
+  .movie-detail-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movie-poster-container {
+    width: 250px;
+    height: 375px;
+  }
+
+  .movie-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .movie-meta {
+    justify-content: center;
+  }
+
+  .movie-genres {
+    justify-content: center;
+  }
+
+  .movie-director {
+    text-align: center;
+  }
+} 
