@@ -56,9 +56,9 @@ Bu proje, kullanıcıların film ve dizi izleme alışkanlıklarını analiz ede
 
 ## 📎 Belgeler
 
-- 📄 [Proje Detayı](./proje_detayı_5.pdf)
+- 📄 [Proje Detayı](./proje_detayı.pdf)
 - 📘 [Katalog](./katalog.pdf)
-- 📚 [Kullanım Kılavuzu v2.0](./kullanımkılavuzu_5.pdf)
+- 📚 [Kullanım Kılavuzu v2.0](./kullanımkılavuzu.pdf)
 - 🧾 [Senaryo Hikayesi](./hikayekartlari.pdf)
 
 ---
